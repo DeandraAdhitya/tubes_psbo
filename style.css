@@ -1,0 +1,39 @@
+body {
+  background-color: cadetblue;
+}
+
+.img-default {
+  max-width: 70px;
+  float: left;
+  height: auto;
+}
+
+.img-route::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-size: cover;
+  opacity: 1;
+  z-index: 100;
+}
+
+.btn {
+  float: right;
+  color: green;
+}
+
+.btn2 {
+  float: right;
+  color: red;
+}
+
+.btn3 {
+  float: right;
+  color: white;
+}
+
+.btn4 {
+  float: right;
+  color: grey;
+}
